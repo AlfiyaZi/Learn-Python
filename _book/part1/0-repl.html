@@ -1,0 +1,417 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>What on Earth is a REPL? | A Maker&#39;s Guide to Python</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    
+    <link rel="prev" href="../part1/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="1.1" data-chapter-title="What on Earth is a REPL?" data-filepath="part1/0-repl.md" data-basepath=".." data-revision="Mon Nov 09 2015 21:35:07 GMT-0800 (PST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="part1/index.html">
+            
+                
+                    <a href="../part1/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Part I: Getting Started
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.1" data-path="part1/0-repl.html">
+            
+                
+                    <a href="../part1/0-repl.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        What on Earth is a REPL?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="part1/1-commandline.html">
+            
+            <span><b>1.2.</b> Python at the command line</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="part2/index.html">
+            
+            <span><b>2.</b> Part II: The Basics</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="part2/0-variables.html">
+            
+            <span><b>2.1.</b> Working with Variables</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="part2/1-variables-strings.html">
+            
+            <span><b>2.2.</b> Types: Strings</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="part2/2-variables-strings.html">
+            
+            <span><b>2.3.</b> Types: Numbers</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="part2/3-operators.html">
+            
+            <span><b>2.4.</b> Operators</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="part2/4-dictionaries.html">
+            
+            <span><b>2.5.</b> Dictionaries</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="part2/5-tuples.html">
+            
+            <span><b>2.6.</b> Tuples</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="part2/6-iteration.html">
+            
+            <span><b>2.7.</b> Iteration</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="part3/index.html">
+            
+            <span><b>3.</b> Part III: Strings</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="part3/0-literals.html">
+            
+            <span><b>3.1.</b> Literals</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="part3/1-substition.html">
+            
+            <span><b>3.2.</b> Substitution</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="part3/2-formatting.html">
+            
+            <span><b>3.3.</b> Formatting</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="part3/3-expression.html">
+            
+            <span><b>3.4.</b> Expression</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="part3/4-splitting-joining.html">
+            
+            <span><b>3.5.</b> Splitting and Joining</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="part4/index.html">
+            
+            <span><b>4.</b> Part IV: Flow Control</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="part4/3-if.html">
+            
+            <span><b>4.1.</b> if Statement</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="part4/3-while.html">
+            
+            <span><b>4.2.</b> while Statement</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="part4/3-for.html">
+            
+            <span><b>4.3.</b> for Statement</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="part4/3-pass.html">
+            
+            <span><b>4.4.</b> pass Statement</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="part4/3-break.html">
+            
+            <span><b>4.5.</b> break Statement</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="part4/3-continue.html">
+            
+            <span><b>4.6.</b> continue Statement</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="part5/index.html">
+            
+            <span><b>5.</b> Part V: Functions</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="part5/0-def.html">
+            
+            <span><b>5.1.</b> def statement</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="part5/1-def.html">
+            
+            <span><b>5.2.</b> best use of functions</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="part6/index.html">
+            
+            <span><b>6.</b> Part VI: Working with Files</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="part6/0-input.html">
+            
+            <span><b>6.1.</b> Input Files</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="part6/1-output.html">
+            
+            <span><b>6.2.</b> Output Files</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >A Maker&#39;s Guide to Python</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../part1/index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Part I: Getting Started"><i class="fa fa-angle-left"></i></a>
+        
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
