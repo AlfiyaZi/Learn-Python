@@ -7,9 +7,9 @@ A Brief Introduction to Python for Makers
 
 ###Who this book is for
 
-This book is intended to be a very basic introduction to Python for folks with little or no programming experience. It is intended for "Makers" who want to build IoT and other embedded projects with such devices as a Raspberry Pi, Arduino, BeagleBone, etc. It covers the basics you'll need to know to start reading sensors, lighting up LEDs, pushing servos and more. 
+This book is intended to be a very basic introduction to Python for folks with little or no programming experience. It is intended for "Makers" who want to build IoT and other embedded projects with such devices as a Raspberry Pi, Arduino, BeagleBone, etc. It covers the basics you'll need to know to start reading sensors, lighting up LEDs, pushing servos and more.  
 
-You won't learn the detailed intracacies of the language or be a Python expert, but after reading this book you'll be comfortable enough to build workable scripts to run your projects. 
+You won't learn the detailed intricacies of the language or be a Python expert, but after reading this book you'll be comfortable enough to build workable scripts to run your projects. 
 
 ###About the Author
 
